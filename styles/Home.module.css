@@ -1,0 +1,244 @@
+.container {
+  padding: 0rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: var(--primary-background-color);
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  justify-content: top;
+  text-align: left;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  display: flex;
+  min-height: 326px;
+  width: 100%;
+  margin-bottom: 48px;
+  max-width: 1220px;
+  max-height: 356px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  border: 2px solid  rgb(242, 102, 2);
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card h4 {
+  align-items: right;
+  display: inline-block;
+  margin:0.5rem;
+}
+
+.card h2,
+.card h3,
+.card h4,
+.card h5,
+.card div,
+.card Image {
+  cursor:pointer;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.card form {
+  align-items: right;
+  display: inline-block;
+  margin: 0.8rem;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.mainnav ul{
+  display: flex;
+  padding: 0.5rem;
+  text-align: left;
+  color: inherit;
+  border: transparent;
+  box-shadow: rgb(229, 230, 233) 0px -1px 0px inset;
+}
+
+.mainnav ul li{
+  justify-content: left;
+  list-style: none;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.maintext{
+  display:flex;
+  align-items:center;
+  margin-bottom:10px;
+  margin-left:0px;
+  flex-direction:column;
+  font-weight:600;
+  font-size:3em;
+  line-height:1.25em;
+}
+
+.buttonbooknow,
+.buttondeets{
+  margin:1rem;
+  cursor:pointer;
+}
+.buttonremove{
+  margin:1rem;
+  cursor:pointer;
+}
+
+.buttonbooknow{
+
+  font-size: 1.125rem;
+  text-align: center;
+  color: white;
+  border: 1px solid  rgb(242, 102, 2);
+  background: #ff7a49;
+  border-radius: 100px;
+  height: 4rem;
+  width: 11rem;
+}
+
+.buttonbooknownext{
+
+  font-size: 1.125rem;
+  text-align: center;
+  color: white;
+  border: 1px solid  rgb(242, 102, 2);
+  background: #ff7a49;
+  border-radius: 100px;
+  height: 3rem;
+  width: 14rem;
+}
+
+.buttoncause{
+
+  margin-left: 5px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: black;
+  border: 1px solid  rgb(187, 184, 182);
+  border-radius: 100px;
+  height: 2.5rem;
+  width: 8.5rem;
+}
+
+.buttondeets{
+
+  font-size: 1.125rem;
+  text-align: center;
+  color: rgb(242, 102, 2);
+  background-color: white;
+  border: 1px solid  rgb(242, 102, 2);
+  border-radius: 100px;
+  height: 4rem;
+  width: 11rem;
+}
+
+.buttonremove{
+
+  font-size: 1.125rem;
+  text-align: center;
+  color: rgb(242, 10, 2);
+  background-color: white;
+  border: 1px solid  rgb(242, 102, 2);
+  border-radius: 100px;
+  height: 4rem;
+  width: 11rem;
+}
+
+.btn{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 100%;
+  display: flex;
+}
+
+.clickpt{
+  cursor:pointer;
+}
